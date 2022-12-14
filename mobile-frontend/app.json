@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "job-fair-app-bt-iot",
+    "slug": "job-fair-app-bt-iot",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/white_logo.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.naman-arora.job-fair-app-bt-iot"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FFFFFF"
+      },
+      "permissions": [
+        "android.permission.NFC"
+      ]
+    },
+    "web": {},
+    "plugins": [
+      "react-native-nfc-manager"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "bfeeee28-78a4-4502-aef6-dcc104e9ba62"
+      }
+    }
+  }
+}
