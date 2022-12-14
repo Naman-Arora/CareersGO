@@ -1,0 +1,16 @@
+.DS_Store
+
+/website-frontend/node_modules
+/website-frontend/.next/
+/website-frontend/next-env.d.ts
+/website-frontend/.vscode/
+/website-frontend/.gitignore
+/website-frontend/.DS_Store
+
+/website-frontend/p_base
+
+/mobile-frontend/node_modules/
+/mobile-frontend/.expo/
+/mobile-frontend/.gitignore
+/mobile-frontend/.DS_Store
+/mobile-frontend/ios/Pods/
