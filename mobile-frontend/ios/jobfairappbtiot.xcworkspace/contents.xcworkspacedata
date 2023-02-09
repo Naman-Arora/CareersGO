@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:jobfairappbtiot.xcodeproj">
+      location = "group:/Users/namanarora/Development/coding/github/careersgo/mobile-frontend/ios/CareersGO.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
