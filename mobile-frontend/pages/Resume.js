@@ -13,8 +13,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 import React, { useState } from "react";
 import storage from "../storage/Storage";
 import { useFocusEffect } from "@react-navigation/native";
-
-const apiLink = "https://fall22-bt-productivity.namanarora.studio";
+import { apiLink } from "../constants/apiRoute";
 
 const Resume = ({ navigation }) => {
   const colorScheme = useColorScheme();

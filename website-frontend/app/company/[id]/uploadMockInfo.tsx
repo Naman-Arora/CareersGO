@@ -1,8 +1,8 @@
 "use client";
 import { useRouter } from "next/navigation";
 import userInfo from "../../../constants/userInformation";
+import { apiLink } from "../../../constants/apiRoute";
 
-const apiLink = "https://fall22-bt-productivity.namanarora.studio";
 
 type Props = {
   id: string;

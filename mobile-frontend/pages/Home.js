@@ -25,10 +25,9 @@ import { useFocusEffect } from "@react-navigation/native";
 import storage from "../storage/Storage";
 import NavBar from "../components/NavBar";
 import CareersGO from "../components/CareersGo";
+import { apiLink } from "../constants/apiRoute";
 
 NfcManager.start();
-
-const apiLink = "https://fall22-bt-productivity.namanarora.studio";
 
 const toastConfig = {
   info: (props) => (

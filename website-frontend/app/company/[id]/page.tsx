@@ -6,7 +6,7 @@ import Loading from "./loading";
 import RefreshButton from "./refreshButton";
 import UploadInformation from "./uploadMockInfo";
 
-const apiLink = "https://fall22-bt-productivity.namanarora.studio";
+import { apiLink } from "../../../constants/apiRoute";
 
 type companyInfo = {
   name: string;

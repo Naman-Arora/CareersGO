@@ -13,8 +13,7 @@ import {
 } from "@tabler/icons";
 import Link from "next/link";
 import userInfo from "../../constants/userInformation";
-
-const apiLink = "https://fall22-bt-productivity.namanarora.studio";
+import { apiLink } from "../../constants/apiRoute";
 
 type companyInfo = {
   name: string;

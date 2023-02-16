@@ -4,8 +4,7 @@ import { Alert, StyleSheet, useColorScheme } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import CareersGO from "../components/CareersGo";
 import storage from "../storage/Storage";
-
-const apiLink = "https://fall22-bt-productivity.namanarora.studio";
+import { apiLink } from "../constants/apiRoute";
 
 const StudentLogin = ({ navigation }) => {
   const colorScheme = useColorScheme();
