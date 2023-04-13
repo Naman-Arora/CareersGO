@@ -4,7 +4,7 @@ A **fullstack application** built for *Texas Convergent* in the fall semester of
 
 ## The Purpose
 
-To facilitate communication between job recruiters and job candidates with the use of NFC tags.
+*CareersGO* facilitates communication between job recruiters and job candidates with the use of NFC tags.
 Candidates interested in joining a company could use the mobile application to scan the NFC tag of the company, which would result in the sharing of their name, email, and resume. The data would then instantly populate the company's servers.
 
 ## The Tech Stack
